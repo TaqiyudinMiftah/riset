@@ -1,0 +1,16 @@
+{
+  "dataset": "emotic",
+  "metric_name": "mAP",
+  "baselines": [
+    {
+      "method": "EmotiCon",
+      "score": 0.0,
+      "notes": "Replace with the Table I result reported in the paper for your target split."
+    },
+    {
+      "method": "RRLA",
+      "score": 0.0,
+      "notes": "Replace with the Table I result reported in the paper for your target split."
+    }
+  ]
+}

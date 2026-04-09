@@ -1,0 +1,46 @@
+{
+  "experiment_name": "emotic_qformer_multimodal",
+  "seed": 42,
+  "dataset": {
+    "name": "emotic",
+    "annotation_path": "data/emotic_annotations.jsonl",
+    "image_root": "data/EMOTIC",
+    "task_type": "multilabel",
+    "image_column": "image_path",
+    "label_column": "labels",
+    "split_column": "split",
+    "sample_id_column": "sample_id",
+    "bbox_column": "bbox",
+    "pseudo_label_column": "semantic_pseudo_label",
+    "train_split": "train",
+    "val_split": "val",
+    "test_split": "test",
+    "num_workers": 4,
+    "max_text_length": 128
+  },
+  "model": {
+    "vision_encoder_name": "openai/clip-vit-large-patch14",
+    "text_encoder_name": "roberta-base",
+    "num_queries": 32,
+    "qformer_hidden_size": 768,
+    "qformer_num_layers": 6,
+    "qformer_num_heads": 8,
+    "dropout": 0.35,
+    "fusion_mode": "multimodal",
+    "freeze_vision_encoder": false,
+    "freeze_text_encoder": false
+  },
+  "training": {
+    "batch_size": 8,
+    "epochs": 20,
+    "gradient_clip_norm": 1.0,
+    "mixed_precision": true,
+    "early_stopping_patience": 5,
+    "weight_decay": 0.05,
+    "vision_lr": 1e-5,
+    "text_lr": 1e-4,
+    "qformer_lr": 1e-4,
+    "head_lr": 1e-3,
+    "output_dir": "outputs/emotic_qformer"
+  }
+}

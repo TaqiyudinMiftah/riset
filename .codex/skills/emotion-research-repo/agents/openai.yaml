@@ -1,0 +1,4 @@
+interface:
+  display_name: "Emotion Research Repo"
+  short_description: "Onboarding and working rules for this emotion research codebase"
+  default_prompt: "Use $emotion-research-repo to understand and modify this multimodal emotion recognition repository safely."
