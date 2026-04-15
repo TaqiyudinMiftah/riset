@@ -1,0 +1,9 @@
+__pycache__/
+.codex/
+.venv/
+caer_dataset/
+configs/
+data/
+logs/
+models/
+.env

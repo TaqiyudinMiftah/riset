@@ -1,0 +1,15 @@
+{
+  "run_name": "heuristic_multimodal",
+  "fusion_mode": "multimodal",
+  "stage1_mode": "partial_vlm",
+  "test_loss": 0.864482223289024,
+  "test_metrics": {
+    "mAP": 1.0,
+    "auc_roc": 1.0,
+    "accuracy": 0.8571360518292683
+  },
+  "num_train": 44107,
+  "num_val": 4900,
+  "num_test": 20992,
+  "vocab_size": 25
+}

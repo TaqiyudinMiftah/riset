@@ -1,0 +1,50 @@
+[
+  {
+    "run_name": "heuristic_multimodal",
+    "fusion_mode": "multimodal",
+    "test_loss": 0.864482223289024,
+    "mAP": 1.0,
+    "auc_roc": 1.0,
+    "accuracy": 0.8571360518292683,
+    "num_train": 44107,
+    "num_val": 4900,
+    "num_test": 20992,
+    "vocab_size": 25
+  },
+  {
+    "run_name": "localvlm_multimodal",
+    "fusion_mode": "multimodal",
+    "test_loss": 1.608753497979132,
+    "mAP": 1.0,
+    "auc_roc": 1.0,
+    "accuracy": 0.8571360518292683,
+    "num_train": 44107,
+    "num_val": 4900,
+    "num_test": 20992,
+    "vocab_size": 52
+  },
+  {
+    "run_name": "localvlm_vision",
+    "fusion_mode": "vision",
+    "test_loss": 3.025143441227378,
+    "mAP": 0.29261718327931163,
+    "auc_roc": 0.6732803863114618,
+    "accuracy": 0.28434641768292684,
+    "num_train": 44107,
+    "num_val": 4900,
+    "num_test": 20992,
+    "vocab_size": 52
+  },
+  {
+    "run_name": "localvlm_text",
+    "fusion_mode": "text",
+    "test_loss": 1.5975950387840225,
+    "mAP": 1.0,
+    "auc_roc": 1.0,
+    "accuracy": 0.8571360518292683,
+    "num_train": 44107,
+    "num_val": 4900,
+    "num_test": 20992,
+    "vocab_size": 52
+  }
+]

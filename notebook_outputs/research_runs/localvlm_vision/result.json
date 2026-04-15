@@ -1,0 +1,15 @@
+{
+  "run_name": "localvlm_vision",
+  "fusion_mode": "vision",
+  "stage1_mode": "partial_vlm",
+  "test_loss": 3.025143441227378,
+  "test_metrics": {
+    "mAP": 0.29261718327931163,
+    "auc_roc": 0.6732803863114618,
+    "accuracy": 0.28434641768292684
+  },
+  "num_train": 44107,
+  "num_val": 4900,
+  "num_test": 20992,
+  "vocab_size": 52
+}

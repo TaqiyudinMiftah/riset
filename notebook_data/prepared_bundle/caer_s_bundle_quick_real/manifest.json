@@ -1,0 +1,20 @@
+{
+  "dataset_name": "caer-s",
+  "task_type": "singlelabel",
+  "image_root": "/home/agung/riset/caer_dataset/CAER-S",
+  "files": {
+    "all": "/home/agung/riset/notebook_data/prepared_bundle/caer_s_bundle_quick_real/all.jsonl",
+    "train": "/home/agung/riset/notebook_data/prepared_bundle/caer_s_bundle_quick_real/train.jsonl",
+    "val": "/home/agung/riset/notebook_data/prepared_bundle/caer_s_bundle_quick_real/val.jsonl",
+    "test": "/home/agung/riset/notebook_data/prepared_bundle/caer_s_bundle_quick_real/test.jsonl",
+    "class_names": "/home/agung/riset/notebook_data/prepared_bundle/caer_s_bundle/class_names.json"
+  },
+  "columns": {
+    "image": "image_path",
+    "label": "labels",
+    "split": "split",
+    "pseudo": "semantic_pseudo_label",
+    "bbox": "bbox",
+    "sample_id": "sample_id"
+  }
+}

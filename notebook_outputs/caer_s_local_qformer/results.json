@@ -1,0 +1,10 @@
+{
+  "task_type": "singlelabel",
+  "fusion_mode": "multimodal",
+  "test_loss": 1.0960149346628623,
+  "test_metrics": {
+    "mAP": 1.0,
+    "auc_roc": 1.0,
+    "accuracy": 0.8558333333333333
+  }
+}
