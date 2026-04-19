@@ -7,3 +7,6 @@ data/
 logs/
 models/
 .env
+model_cache/
+stage2_qformer/
+

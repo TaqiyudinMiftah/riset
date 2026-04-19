@@ -54,7 +54,6 @@ def load_records(path: str | Path) -> list[dict[str, Any]]:
         return _read_csv(path_obj)
     raise ValueError(f"Unsupported annotation file format: {path_obj}")
 
-
 def save_json(path: str | Path, payload: Any) -> None:
     path_obj = Path(path)
     ensure_dir(path_obj.parent)
