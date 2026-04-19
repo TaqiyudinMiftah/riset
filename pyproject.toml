@@ -1,0 +1,32 @@
+[project]
+name = "riset"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "torch==1.13.1+cu116",
+    "torchaudio==0.13.1",
+    "torchvision==0.14.1+cu116",
+    "transformers",
+    "accelerate",
+    "scikit-learn",
+    "pandas",
+    "numpy",
+    "Pillow",
+    "tqdm",
+    "matplotlib",
+    "pytest",
+    "python-dotenv",
+    "zip-files>=0.4.1",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu116" }
+torchvision = { index = "pytorch-cu116" }
+torchaudio = { index = "pytorch-cu116" }
+
+[[tool.uv.index]]
+name = "pytorch-cu116"
+url = "https://download.pytorch.org/whl/cu116"
+explicit = true
