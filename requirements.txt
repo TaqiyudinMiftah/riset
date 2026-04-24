@@ -10,3 +10,4 @@ tqdm>=4.66
 matplotlib>=3.8
 pytest>=8.0
 python-dotenv>=1.0
+wandb>=0.17

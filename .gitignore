@@ -9,4 +9,8 @@ models/
 .env
 model_cache/
 stage2_qformer/
+scripts/wandb/
+notebook_outputs/risetv1_qwen/stage1_pseudo_labels_qwen_train10k_ready.jsonl
+notebook_outputs/risetv1_qwen/stage2_train10k_summary.json
+notebook_outputs/risetv1_qwen/stage2_qformer/
 
